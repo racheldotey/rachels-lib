@@ -35,4 +35,8 @@
 		"nodemon": "^2.0.20",
 		"ntl": "^5.1.0"
 	},
+	"dependencies": {
+		"fs": "^0.0.1-security",
+		"path": "^0.12.7"
+	}
 }
