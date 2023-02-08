@@ -1,0 +1,38 @@
+{
+	"name": "rachels-lib",
+	"version": "1.0.0",
+	"description": "An eclectic gathering of Node.js methods and patterns that I use semi regularly.",
+	"keywords": [
+		"Node.js",
+		"React"
+	],
+	"author": {
+		"name": "Rachel Dotey",
+		"email": "hello@racheldotey.com",
+		"url": "https://github.com/racheldotey"
+	},
+	"license": "MIT",
+	"homepage": "https://racheldotey.ninja",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/racheldotey/rachels-lib.git"
+	},
+	"bugs": {
+		"url": "https://github.com/racheldotey/rachels-lib/issues"
+	},
+	"ntl": {
+		"descriptions": {
+			"menu:close": "Close this menu -> Do nothing",
+			"menu": "Open interactive script menu"
+		}
+	},
+	"scripts": {
+		"menu:close": "",
+		"menu": "ntl --size 12"
+	},
+	"devDependencies": {
+		"concurrently": "^7.6.0",
+		"nodemon": "^2.0.20",
+		"ntl": "^5.1.0"
+	},
+}
